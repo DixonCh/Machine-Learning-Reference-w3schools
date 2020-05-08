@@ -1,12 +1,15 @@
+'''
 Machine Learning - Polynomial Regression
 Polynomial Regression
-If your data points clearly will not fit a linear regression (a straight line through all data points), it might be ideal for polynomial regression.
+If your data points clearly will not fit a linear regression (a straight line through all data points), it might be ideal for polynomial
+regression.
 
-Polynomial regression, like linear regression, uses the relationship between the variables x and y to find the best way to draw a line through the data points.
-
+Polynomial regression, like linear regression, uses the relationship between the variables x and y to find the best way to draw a line 
+through the data points.
 
 How Does it Work?
-Python has methods for finding a relationship between data-points and to draw a line of polynomial regression. We will show you how to use these methods instead of going through the mathematic formula.
+Python has methods for finding a relationship between data-points and to draw a line of polynomial regression. We will show you how to 
+use these methods instead of going through the mathematic formula.
 
 In the example below, we have registered 18 cars as they were passing a certain tollbooth.
 
@@ -78,7 +81,8 @@ Display the diagram:
 plt.show()
 
 R-Squared
-It is important to know how well the relationship between the values of the x- and y-axis is, if there are no relationship the polynomial regression can not be used to predict anything.
+It is important to know how well the relationship between the values of the x- and y-axis is, if there are no relationship the polynomial
+regression can not be used to predict anything.
 
 The relationship is measured with a value called the r-squared.
 
