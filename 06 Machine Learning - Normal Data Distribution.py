@@ -4,7 +4,8 @@ In the previous chapter we learned how to create a completely random array, of a
 
 In this chapter we will learn how to create an array where the values are concentrated around a given value.
 
-In probability theory this kind of data distribution is known as the normal data distribution, or the Gaussian data distribution, after the mathematician Carl Friedrich Gauss who came up with the formula of this data distribution.
+In probability theory this kind of data distribution is known as the normal data distribution, or the Gaussian data distribution, 
+after the mathematician Carl Friedrich Gauss who came up with the formula of this data distribution.
 
 Example
 A typical normal data distribution:
