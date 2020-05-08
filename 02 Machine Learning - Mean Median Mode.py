@@ -14,7 +14,8 @@ speed = [99,86,87,88,111,86,103,87,94,78,77,85,86]
 
 What is the average, the middle, or the most common speed value?
 
-Mean
+Mean:
+
 The mean value is the average value.
 
 To calculate the mean, find the sum of all values, and divide the sum by the number of values:
@@ -23,7 +24,8 @@ To calculate the mean, find the sum of all values, and divide the sum by the num
 
 The NumPy module has a method for this. Learn about the NumPy module in our NumPy Tutorial.
 
-Example
+Example:
+
 Use the NumPy mean() method to find the average speed:
 '''
 import numpy
@@ -34,7 +36,8 @@ x = numpy.mean(speed)
 
 print(x)
 '''
-Median
+Median:
+
 The median value is the value in the middle, after you have sorted all the values:
 
 77, 78, 85, 86, 86, 86, 87, 87, 88, 94, 99, 103, 111
