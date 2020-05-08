@@ -1,3 +1,4 @@
+'''
 Machine Learning - Scale
 Scale Features
 When your data has different values, and even different measurement units, it can be difficult to compare them. What is kilograms 
@@ -70,6 +71,7 @@ with methods for transforming data sets.
 
 Example
 Scale all values in the Weight and Volume columns:
+'''
 
 import pandas
 from sklearn import linear_model
@@ -83,6 +85,7 @@ X = df[['Weight', 'Volume']]
 scaledX = scale.fit_transform(X)
 
 print(scaledX)
+'''
 Result:
 Note that the first two values are -2.1 and -1.59, which corresponds to our calculations:
 
@@ -130,7 +133,7 @@ When the data set is scaled, you will have to use the scale when you predict val
 
 Example
 Predict the CO2 emission from a 1.3 liter car that weighs 2300 kilograms:
-
+'''
 import pandas
 from sklearn import linear_model
 from sklearn.preprocessing import StandardScaler
@@ -150,6 +153,7 @@ scaled = scale.transform([[2300, 1.3]])
 
 predictedCO2 = regr.predict([scaled[0]])
 print(predictedCO2)
+'''
 Result:
 [107.2087328]
 
