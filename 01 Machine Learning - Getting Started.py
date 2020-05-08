@@ -1,3 +1,4 @@
+'''
 Machine Learning
 Machine Learning is making the computer learn from studying data and statistics.
 
@@ -22,6 +23,8 @@ Example of an array:
 Example of a database:
 
 Carname	Color	Age	Speed	AutoPass
+'''
+'''
 BMW	red	5	99	Y
 Volvo	black	7	86	Y
 VW	gray	8	87	N
@@ -35,13 +38,17 @@ Ford	white	11	78	N
 Toyota	gray	12	77	N
 VW	white	9	85	N
 Toyota	blue	6	86	Y
-By looking at the array, we can guess that the average value is probably around 80 or 90, and we are also able to determine the highest value and the lowest value, but what else can we do?
 
-And by looking at the database we can see that the most popular color is white, and the oldest car is 17 years, but what if we could predict if a car had an AutoPass, just by looking at the other values?
+By looking at the array, we can guess that the average value is probably around 80 or 90, and we are also able to determine the highest 
+value and the lowest value, but what else can we do?
+
+And by looking at the database we can see that the most popular color is white, and the oldest car is 17 years, but what if we could 
+predict if a car had an AutoPass, just by looking at the other values?
 
 That is what Machine Learning is for! Analyzing data and predicting the outcome!
 
-In Machine Learning it is common to work with very large data sets. In this tutorial we will try to make it as easy as possible to understand the different concepts of machine learning, and we will work with small easy-to-understand data sets.
+In Machine Learning it is common to work with very large data sets. In this tutorial we will try to make it as easy as possible to 
+understand the different concepts of machine learning, and we will work with small easy-to-understand data sets.
 
 Data Types
 To analyze data, it is important to know what type of data we are dealing with.
@@ -59,7 +66,8 @@ Continuous Data
 - numbers that are of infinite value. Example: The price of an item, or the size of an item
 Categorical data are values that cannot be measured up against each other. Example: a color value, or any yes/no values.
 
-Ordinal data are like categorical data, but can be measured up against each other. Example: school grades where A is better than B and so on.
+Ordinal data are like categorical data, but can be measured up against each other. Example: school grades where A is better than B and 
+so on.
 
 By knowing the data type of your data source, you will be able to know what technique to use when analyzing them.
 
